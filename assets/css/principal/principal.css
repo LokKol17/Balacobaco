@@ -1,0 +1,8 @@
+.principal {
+    margin: 0 auto;
+    background-color: var(--white);
+    height: 400vh;
+    width: 90%;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+}
