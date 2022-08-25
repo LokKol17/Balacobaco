@@ -6,16 +6,16 @@
     background-color: var(--eerie-black);
     overflow: hidden;
 }
-.selecao__inglaterra {
+.selecao__holanda {
     width: 100%;
     height: 100%;   
 }
-.selecao__gales {
+.selecao__islandia {
     width: 100%;
     height: 100%;
 }
 
-.inglaterra__container {
+.holanda__container {
     background-color: aqua;
     width: 100%;
     height: 100%;
@@ -24,7 +24,7 @@
     box-sizing: border-box;
     transition: all .5s;
 }
-.gales__container {
+.islandia__container {
     background-color: orangered;
     width: 100%;
     height: 100%;
@@ -32,7 +32,7 @@
     padding: 4rem;
     box-sizing: border-box;
 }
-.inglaterra__titulo, .gales__titulo {
+.holanda__titulo, .islandia__titulo {
     display: flex;
     width: 100%;
     height: 100%;
@@ -40,20 +40,20 @@
     color: white;
     font-size: 3rem;
 }
-.inglaterra__titulo {
+.holanda__titulo {
     justify-content: flex-end;
     align-items: flex-end;
 }
-.gales__titulo {
+.islandia__titulo {
     justify-content: center;
     align-items: flex-start;
 }
 
-.inglaterra__container:hover {
+.holanda__container:hover {
     transition: all .5s;
     background-color: rgb(0, 100, 100);    
 }
-.gales__container:hover {
+.islandia__container:hover {
     transition: all .5s;
     background-color: rgb(100, 27, 0);
 }
