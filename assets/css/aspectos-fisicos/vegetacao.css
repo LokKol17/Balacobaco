@@ -1,0 +1,48 @@
+.aspectos-fisicos__vegetacao {
+    background-color: tan;
+}
+.vegetacao__container {
+    display: flex;
+    justify-content: space-between;
+}
+.vegetacao__container__info {
+    padding: 0 10px;
+    width: 50%;
+}
+.vegetacao__descricao {
+    font-family: var(--comfortaa);
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+}
+.vegetacao__vetor__imagem {
+    background-color: blueviolet;
+    width: 50%;
+    height: 500px;
+}
+.vegetacao__vetor__container {
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+    "img-m img-m img-p"
+    "img-g img-g img-g"
+    "img-g img-g img-g";
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.vegetacao__imagem__pequena, .vegetacao__imagem__media, .vegetacao__imagem__grande {
+    margin: 10px;
+}
+.vegetacao__imagem__pequena {
+    background-color: red;
+    grid-area: img-p;
+}
+.vegetacao__imagem__media {
+    background-color: blueviolet;
+    grid-area: img-m;
+}
+.vegetacao__imagem__grande {
+    background-color: blue;
+    grid-area: img-g;
+}

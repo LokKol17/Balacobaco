@@ -1,0 +1,21 @@
+.aspectos-fisicos__clima {
+    margin: 2rem 0;
+    background-color: rosybrown;
+    height: 500px;
+}
+.clima__descricao {
+    font-family: var(--comfortaa);
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: justify;
+    margin-left: 1rem;
+}
+/* .clima__parallax {
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/05/20/41/girl-1438138_960_720.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

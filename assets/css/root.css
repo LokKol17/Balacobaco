@@ -20,3 +20,17 @@ html {
 body {
     background-color: var(--light-gray);
 }
+
+th, td {
+    padding: 1rem 1rem;
+    border: 1px solid black;
+}
+th {
+    background-color: var(--deep-jungle-green);
+    color: white;
+}
+td {
+    background-color: var(--middle-green);
+    color: white;
+
+}

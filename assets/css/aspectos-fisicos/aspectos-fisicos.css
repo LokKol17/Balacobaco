@@ -1,0 +1,20 @@
+.aspectos-fisicos {
+    background-color: cornsilk;
+}
+.aspectos-fisicos__titulo {
+    font-size: 2.4rem;
+    font-family: var(--albert);
+    margin: 1.7rem 0;
+}
+.aspectos-fisicos__descricao {
+    width: 50%;
+    font-size: 1.3rem;
+    font-family: var(--comfortaa);
+    padding: 0 10px;
+    line-height: 1.8rem;
+}
+.aspectos-fisicos h3 {
+    font-size: 2rem;
+    font-family: var(--albert);
+    margin: 1rem 0;
+}
