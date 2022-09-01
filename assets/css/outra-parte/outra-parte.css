@@ -1,0 +1,27 @@
+.outra-parte {
+    margin: 3rem 0;
+    background-color: var(--deep-jungle-green);
+    color: #fff;
+    width: 300px;
+    height: 140px;
+    border: 2px solid #401035;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 23px 20px 50px rgba(0, 0, 0, 0.483);
+    transition: all .7s;
+}
+.outra-parte:hover {
+    background-color: rgb(67, 22, 109);
+    transition: all .7s;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+.outra-parte__valor {
+    margin: 10px 0;
+    font-family: var(--montserrat);
+    font-size: 1.4rem;
+}

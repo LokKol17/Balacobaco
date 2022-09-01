@@ -3,7 +3,6 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: antiquewhite;
     padding: 0 1rem;
     height: auto;
 }
@@ -18,19 +17,20 @@
     font-family: var(--alberto);
 }
 .economia__container-info {
-    background-color: grey;
     width: 60%;
 }
 .economia__container-imagem {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
     width: 40%;
     height: 100%;
 }
 .economia__imagem {
-    background-color: red;
-    width: 300px;
-    height: 250px;
+    background-color: rgb(28, 26, 26);
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 7px black;
+    border-radius: 2px 5px;
 }

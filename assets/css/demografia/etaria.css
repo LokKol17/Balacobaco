@@ -1,0 +1,27 @@
+.etaria__titulo {
+    font-size: 2rem;
+    font-family: var(--montserrat);
+    margin: 2rem 0;
+}
+.etaria__descricao {
+    font-size: 1.5rem;
+    font-family: var(--albert);
+    width: 90%;
+    line-height: 2rem;
+}
+/* ////////// */
+.demografia__etaria__container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.etaria__container-left {
+    display: inline-block;
+    width: 40%;
+}
+.etaria__container-right {
+    display: inline-block;
+    width: 50%;
+    height: 470px;
+    background-color: aqua;
+}

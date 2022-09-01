@@ -1,0 +1,34 @@
+.demografia {
+    background-color: #fbfbfb;
+}
+.demografia__titulo {
+    font-size: 2.5rem;
+    font-family: var(--montserrat);
+    margin: 1rem 0
+}
+.demografia__descricao {
+    font-size: 1.4rem;
+    font-family: var(--comfortaa);
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+/* ///////// Densidade ///////// */
+.demografia__densidade {
+    margin: 2rem 0;
+}
+.densidade__titulo {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: var(--albert);
+    margin: 1rem 0
+}
+.densidade__valor {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: var(--albert);    
+}
+.densidade__descricao {
+    font-size: 1.2rem;
+    font-family: var(--comfortaa);
+    line-height: 1.7rem;
+}

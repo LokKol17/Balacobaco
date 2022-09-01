@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="./assets/css/aspectos-fisicos/clima.css">
     <link rel="stylesheet" href="./assets/css/aspectos-fisicos/vegetacao.css">
     <link rel="stylesheet" href="./assets/css/demografia/demografia.css">
+    <link rel="stylesheet" href="./assets/css/demografia/natalidade.css">
+    <link rel="stylesheet" href="./assets/css/demografia/mortalidade.css">
+    <link rel="stylesheet" href="./assets/css/demografia/etaria.css">
+    <link rel="stylesheet" href="./assets/css/outra-parte/outra-parte.css">
 
     <title>Balacobaco</title>
 </head>
@@ -47,26 +51,26 @@
     <main class="principal">
         <section class="info-pais" id="infoPais">
         <div class="info">
-            <h1 class="info__titulo">[Nome do Pais]</h1>
-            <p class="info__descricao">[Desc pais] Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem nesciunt est eius odit delectus nihil fugit omnis corporis earum officia incidunt explicabo quas, voluptates quidem consequuntur molestias cumque deleniti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore doloremque recusandae vitae illo quia eius praesentium animi, voluptas minima repellat id dolore voluptate rerum dicta consequatur est sunt. Voluptatum!</p>
+            <h1 class="info__titulo" id="infoTitulo">[Nome do Pais]</h1>
+            <p class="info__descricao" id="infoDescricao">[Desc pais] Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem nesciunt est eius odit delectus nihil fugit omnis corporis earum officia incidunt explicabo quas, voluptates quidem consequuntur molestias cumque deleniti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore doloremque recusandae vitae illo quia eius praesentium animi, voluptas minima repellat id dolore voluptate rerum dicta consequatur est sunt. Voluptatum!</p>
         </div>
         <div class="info__geografia">
             <div class="info__bandeira">
-                <img src="" alt="">
+                <img id="infoBandeira" src="" alt="">
             </div>
             <div class="info__mapa">
-                <!-- <iframe src="" frameborder="0"></iframe> -->
+                <iframe class="info__mapa__iframe" id="infoMapa" src="" frameborder="0"></iframe>
             </div>
         </div>
         </section>
         <hr>
         <section class="economia">
             <div class="economia__container-info">
-                <h2 class="economia__titulo">Econômia</h2>
-                <p class="economia__descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt unde aliquid temporibus perferendis deleniti provident voluptatum consectetur qui, quae nobis magni itaque quos, voluptates quisquam accusamus dolorum dolores voluptatibus fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, expedita. Illo temporibus facere id amet fugit reiciendis officia. Quos iure corporis, natus id nostrum tempora vero a quis sapiente soluta. lo</p>
+                <h2 class="economia__titulo" id="economiaTitulo">Econômia</h2>
+                <p class="economia__descricao" id="economiaDescricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt unde aliquid temporibus perferendis deleniti provident voluptatum consectetur qui, quae nobis magni itaque quos, voluptates quisquam accusamus dolorum dolores voluptatibus fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, expedita. Illo temporibus facere id amet fugit reiciendis officia. Quos iure corporis, natus id nostrum tempora vero a quis sapiente soluta. lo</p>
             </div>
             <div class="economia__container-imagem">
-                <img src="" class="economia__imagem" alt="">
+                <img id="economiaImagem" src="" class="economia__imagem" alt="">
             </div>
  
         </section>
@@ -75,37 +79,37 @@
             <div class="setorPrimario setores">
                 <div class="setorPrimario__container-info setores__container-info">
                     <h3 class="setorPrimario__titulo setores__titulo">Setor Primario</h3>
-                    <p class="setorPrimario__descricao setores__descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates commodi ipsam laborum repudiandae, doloremque, ut illo esse quod maxime vel, impedit consectetur! Nam consequatur aperiam voluptatibus iusto assumenda facere impedit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, dolor, voluptatum explicabo enim eveniet recusandae repellat nihil officiis voluptatem dolorem nemo fugiat veniam? Sunt, eveniet. Dolore laboriosam necessitatibus inventore sequi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa a placeat cupiditate voluptas minima earum quo, repellat vero perspiciatis quam, sit facere neque voluptate consequatur molestiae dicta. Assumenda, inventore!</p>
+                    <p id="primarioDescricao" class="setorPrimario__descricao setores__descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates commodi ipsam laborum repudiandae, doloremque, ut illo esse quod maxime vel, impedit consectetur! Nam consequatur aperiam voluptatibus iusto assumenda facere impedit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, dolor, voluptatum explicabo enim eveniet recusandae repellat nihil officiis voluptatem dolorem nemo fugiat veniam? Sunt, eveniet. Dolore laboriosam necessitatibus inventore sequi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa a placeat cupiditate voluptas minima earum quo, repellat vero perspiciatis quam, sit facere neque voluptate consequatur molestiae dicta. Assumenda, inventore!</p>
                 </div>
-                <div class="setorPrimario__container-imagem setores__container-imagem"><img src="" alt="" class="setorPrimario__imagem setores__imagem"></div>
+                <!-- <div class="setorPrimario__container-imagem setores__container-imagem"><img id="primarioImagem" src="" alt="" class="setorPrimario__imagem setores__imagem"></div> -->
             </div>
             <div class="setorSecundario setores">
                 <div class="setorSecundario__container-info setores__container-info">
                     <h3 class="setorSecundario__titulo setores__titulo">Setor Secundario</h3>
-                    <p class="setorSecundario__descricao setores__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nobis dolorum natus voluptas quod aut, iusto sunt dignissimos sapiente dolore! Sapiente, quasi quidem. Necessitatibus, placeat quo? Dolores et rem praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolorem? Temporibus sapiente qui omnis ab facilis saepe fugit. Dicta rerum obcaecati perferendis, numquam sint similique. Cupiditate eius culpa nulla dolorem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse qui vel quos laboriosam commodi? At voluptates iste minima dolor fugiat repudiandae cumque exercitationem! Unde, temporibus aperiam consectetur eaque minima omnis.</p>
+                    <p id="secundarioDescricao" class="setorSecundario__descricao setores__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nobis dolorum natus voluptas quod aut, iusto sunt dignissimos sapiente dolore! Sapiente, quasi quidem. Necessitatibus, placeat quo? Dolores et rem praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolorem? Temporibus sapiente qui omnis ab facilis saepe fugit. Dicta rerum obcaecati perferendis, numquam sint similique. Cupiditate eius culpa nulla dolorem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse qui vel quos laboriosam commodi? At voluptates iste minima dolor fugiat repudiandae cumque exercitationem! Unde, temporibus aperiam consectetur eaque minima omnis.</p>
                 </div>
-                <div class="setorSecundario__container-imagem setores__container-imagem"><img src="" alt="" class="setorSecundario__imagem setores__imagem"></div>
+                <!-- <div class="setorSecundario__container-imagem setores__container-imagem"><img src="" alt="" class="setorSecundario__imagem setores__imagem"></div> -->
             </div>
             <div class="setorTerciario setores">
                 <div class="setorTerciario__container-info setores__container-info">
                     <h3 class="setorTerciario__titulo setores__titulo">Setor Terciario</h3>
-                    <p class="setorTerciario__descricao setores__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus quidem dolores assumenda maiores consectetur tempora at fuga tenetur tempore fugit perferendis debitis, ipsa, atque maxime quibusdam in, cupiditate ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugit recusandae quisquam voluptatem optio maxime dignissimos fuga aliquam? Repellat nostrum vel vero, totam voluptatibus quidem quam. Modi voluptatibus doloribus praesentium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptatibus harum adipisci dolor molestiae modi optio enim porro repellendus dolores debitis expedita, rem eligendi numquam voluptatum laudantium illo? Laborum, illum.</p>
+                    <p id="terciarioDescricao" class="setorTerciario__descricao setores__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus quidem dolores assumenda maiores consectetur tempora at fuga tenetur tempore fugit perferendis debitis, ipsa, atque maxime quibusdam in, cupiditate ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugit recusandae quisquam voluptatem optio maxime dignissimos fuga aliquam? Repellat nostrum vel vero, totam voluptatibus quidem quam. Modi voluptatibus doloribus praesentium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptatibus harum adipisci dolor molestiae modi optio enim porro repellendus dolores debitis expedita, rem eligendi numquam voluptatum laudantium illo? Laborum, illum.</p>
                 </div>
-                <div class="setorTerciario__container-imagem setores__container-imagem"><img src="" alt="" class="setorTerciario__imagem setores__imagem"></div>
+                <!-- <div class="setorTerciario__container-imagem setores__container-imagem"><img src="" alt="" class="setorTerciario__imagem setores__imagem"></div> -->
             </div>
         </section>
     
         <section class="aspectos-fisicos">
             <h2 class="aspectos-fisicos__titulo">Aspectos fisicos</h2>
-            <p class="aspectos-fisicos__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rem dicta, rerum sunt eos facere cupiditate, quam non laboriosam doloribus suscipit molestiae id veritatis. Asperiores sunt nihil reprehenderit alias libero.</p>
+            <!-- <p id="aspDescricao" class="aspectos-fisicos__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rem dicta, rerum sunt eos facere cupiditate, quam non laboriosam doloribus suscipit molestiae id veritatis. Asperiores sunt nihil reprehenderit alias libero.</p> -->
 
             <section class="aspectos-fisicos__relevo">
                 <h3 class="relevo__titulo">Relevo</h3>
-                <p class="relevo__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus autem molestias, harum, voluptas veritatis ut est mollitia odit hic nemo iure, recusandae optio eligendi voluptatum necessitatibus facilis placeat saepe at.</p>
+                <p id="relevoDescricao" class="relevo__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus autem molestias, harum, voluptas veritatis ut est mollitia odit hic nemo iure, recusandae optio eligendi voluptatum necessitatibus facilis placeat saepe at.</p>
                 <!-- Slideshow container -->
-                    <div class="slideshow-container">
+                    <!-- <div class="slideshow-container">
 
-                        <!-- Full-width images with number and caption text -->
+                         Full-width images with number and caption text 
                         <div class="mySlides fade">
                         <div class="numbertext">1 / 3</div>
                         <img src="./assets/imgs/cat1.jpg" style="width:100%">
@@ -124,18 +128,18 @@
                         <div class="text">Caption Three</div>
                         </div>
                     
-                        <!-- Next and previous buttons -->
+                         Next and previous buttons
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <br>
+                    </div> -->
+                    <!-- <br>
                     
-                    <!-- The dots/circles -->
+                     The dots/circles
                     <div class="container__dot" style="text-align:center">
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
                         <span class="dot" onclick="currentSlide(3)"></span>
-                    </div>
+                    </div> -->
             </section>
 
 
@@ -143,41 +147,111 @@
                 <h3 class="vegetacao__titulo">Vegetação</h3>
                 <div class="vegetacao__container">
                     <div class="vegetacao__container__info">
-                        <p class="vegetacao__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam distinctio sunt sint itaque laborum? Maiores voluptatem quis porro cupiditate numquam. Recusandae ipsum amet quidem consequatur, in harum illo tempore eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque tenetur quo, animi explicabo, porro debitis neque culpa blanditiis quis et voluptates quasi architecto eveniet distinctio labore magnam id error facere.</p>
+                        <p id="vegetacaoDescricao" class="vegetacao__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam distinctio sunt sint itaque laborum? Maiores voluptatem quis porro cupiditate numquam. Recusandae ipsum amet quidem consequatur, in harum illo tempore eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque tenetur quo, animi explicabo, porro debitis neque culpa blanditiis quis et voluptates quasi architecto eveniet distinctio labore magnam id error facere.</p>
                     </div>
-                    <div class="vegetacao__vetor__imagem">
+                    <!-- <div class="vegetacao__vetor__imagem">
                         <div class="vegetacao__vetor__container">
                             <div class="vegetacao__imagem__pequena">
-                                <img class="vegetacao__imagem-pequena" src="" alt="">
+                                <img id="imgPeq" class="vegetacao__imagem-pequena" src="" alt="">
                             </div>
                             <div class="vegetacao__imagem__media">
-                                <img class="vegetacao__imagem-media" src="" alt="">
+                                <img id="imgMed" class="vegetacao__imagem-media" src="" alt="">
                             </div>
                             <div class="vegetacao__imagem__grande">
-                                <img class="vegetacao__imagem-grande" src="" alt="">
+                                <img id="imgGra" class="vegetacao__imagem-grande" src="" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <section class="aspectos-fisicos__clima">                
                 <h3 class="clima__titulo">Clima</h3>
-                <p class="clima__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cupiditate earum veniam adipisci dignissimos sapiente doloremque eligendi placeat voluptatibus sit maxime quibusdam delectus, ipsam saepe optio fuga eaque ipsum veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi animi cupiditate ea dolorum ut earum aut maiores. Commodi corrupti totam error nobis accusamus, qui ducimus incidunt. Esse, nostrum optio?</p>
+                <p id="climaDescricao" class="clima__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cupiditate earum veniam adipisci dignissimos sapiente doloremque eligendi placeat voluptatibus sit maxime quibusdam delectus, ipsam saepe optio fuga eaque ipsum veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi animi cupiditate ea dolorum ut earum aut maiores. Commodi corrupti totam error nobis accusamus, qui ducimus incidunt. Esse, nostrum optio?</p>
 
             </section>
         </section>
-            
+            <hr>
     <section class="demografia">
         <h2 class="demografia__titulo">Demografia</h2>
-        <p class="demografia__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat provident veniam voluptate cumque sapiente assumenda natus beatae labore porro neque. Recusandae eius magnam, atque qui magni totam fugit odio quod?</p>
+        <p id="demoDescricao" class="demografia__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat provident veniam voluptate cumque sapiente assumenda natus beatae labore porro neque. Recusandae eius magnam, atque qui magni totam fugit odio quod?</p>
+
+        <div class="demografia__densidade">
+            <h2 class="densidade__titulo">Densidade demográfica: </h2> <h2 id="densidadeValor" class="densidade__valor">X</h2>
+            <p id="densidadeDescricao" class="densidade__descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, deleniti quae! Atque fugiat, praesentium quisquam quam libero cupiditate illum reiciendis exercitationem eum impedit consequuntur laborum obcaecati facilis pariatur minus perferendis.</p>
+        </div>
+
+        <div class="demografia__natalidade">
+            <h2 class="natalidade__titulo">Natalidade</h2>
+            <p id="natalidadeDescricao" class="natalidade__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum saepe eveniet sed dolorem? Eligendi corporis magnam molestiae commodi dolore assumenda ratione repellat dolorum quam, culpa doloremque consequatur, laborum tempore voluptates.</p>
+            <div class="natalidade__tabelas">
+                <div class="natalidade__tabela">
+                    <table class="tabela">
+                        <thead>
+                        <th>Data</th> <th>Nascidos Vivos</th> <th>Nascidos - homens</th> <th> Nascidos - mulheres</th> <th>Taxa de natalidade</th> <th>Taxa de fertilidade</th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>2019</td> <td id="natNas1">4.452</td> <td id="natNasH1">2.267</td> <td id="natNasM1">2.185</td> <td id="natTaxNat1">12,30‰</td> <td id="natTaxFer1">1,74</td>
+                        </tr>
+                        <tr>
+                        <td>2018</td> <td id="natNas2">4.452</td> <td id="natNasH2">2.267</td> <td id="natNasM2">2.185</td> <td id="natTaxNat2">12,30‰</td> <td id="natTaxFer2">1,74</td>
+                        </tr>
+                        <tr>
+                        <td>2017</td> <td id="natNas3">4.452</td> <td id="natNasH3">2.267</td> <td id="natNasM3">2.185</td> <td id="natTaxNat3">12,30‰</td> <td id="natTaxFer3">1,74</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="demografia__mortalidade">
+            <h2 class="mortalidade__titulo">Mortalidade</h2>
+            <p id="mortalidadeDescricao" class="mortalidade__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores et quas impedit ratione, aperiam incidunt sed voluptate dolores architecto, earum reprehenderit doloremque, necessitatibus repellendus exercitationem aliquam fugiat voluptates sapiente. Impedit.</p>
+
+            <div class="mortalidade__tabela">
+                <table class="tabela">
+                    <thead>
+                    <th>Data</th> <th>Mortes</th> <th>Mortes - homens</th> <th>Mortes - mulheres</th> <th>Taxa de Mortalidade</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td>2019</td> <td id="mor1">4.452</td> <td id="morH1">2.267</td> <td id="morM1">2.185</td> <td id="taxMor1">12,30‰</td>
+                    </tr>
+                    <tr>
+                    <td>2018</td> <td id="mor2">4.452</td> <td id="morH2">2.267</td> <td id="morM2">2.185</td> <td id="taxMor2">12,30‰</td>
+                    </tr>
+                    <tr>
+                    <td>2017</td> <td id="mor3">4.452</td> <td id="morH3">2.267</td> <td id="morM3">2.185</td> <td id="taxMor3">12,30‰</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- <div class="demografia__etaria">
+            <h2 class="etaria__titulo">πramide Etária</h2>
+            <div class="etaria__container">
+                <div class="etaria__container-left">
+                    <p class="etaria__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus alias iste officia maiores inventore nam quos quisquam eum hic recusandae, eos impedit ipsa culpa consectetur cum. Iure similique ex consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloremque numquam eius dolorem placeat, nam molestiae sequi magnam ab maiores accusamus corrupti odit vel facere repudiandae, sit repellat quod quae.</p>
+                </div>
+
+                <div class="etaria__container-right">
+                </div>
+            </div>
+        </div> -->
+        <hr>
     </section>
-
-
+    <footer id="op" class="outra-parte">
+        <h2 class="outra-parte__titulo">Voltar ao topo</h2>
+    </footer>
     </main>
-    
+
     <!-- <script src="./assets/js/teste.js"></script> -->
     <script type="module" src="./assets/js/scroller.js"></script>
     <script type="module" src="./assets/js/distancia.js"></script>
     <script src="./assets/js/slideshow.js"></script>
+    <script src="./assets/js/holanda/holanda.js"></script>
+    <script src="./assets/js/islandia/islandia.js"></script>
 </body>
 </html>

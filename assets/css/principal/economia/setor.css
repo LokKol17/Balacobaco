@@ -1,21 +1,27 @@
 .setores {
     display: flex;
-    background-color: ghostwhite;
+    background-color: #fafafa;
     margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.533);
+    padding: 1rem;
 }
 .setores__container-info {
     padding: 1rem 2rem;
     width: 70%;
 }
 .setor__titulo {
+    font-family: var(--montserrat);
     font-size: 2.6rem;
     margin: 2rem 1rem 1rem 1rem;
 }
 .setores__titulo {
+    font-family: var(--comfortaa);
     margin: 1rem 0 2rem 0;
     font-size: 2rem;
 }
 .setores__descricao {
+    font-family: var(--albert);
     line-height: 2rem;
     font-size: 1.7rem;
 }
@@ -23,11 +29,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
     width: 30%;
 }
 .setores__imagem {
-    background-color: blueviolet;
     width: 300px;
     height: 300px;
 }

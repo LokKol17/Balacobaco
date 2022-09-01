@@ -1,0 +1,17 @@
+.natalidade__titulo {
+    font-size: 2rem;
+    font-family: var(--montserrat);
+    margin: 2rem 0;
+}
+.natalidade__descricao {
+    font-size: 1.5rem;
+    font-family: var(--albert);
+    width: 90%;
+    line-height: 2rem;
+}
+
+/* ////////// Tabela ////////// */
+
+.natalidade__tabela {
+    margin: 4rem 0;
+}

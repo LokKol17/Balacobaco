@@ -1,6 +1,9 @@
 .aspectos-fisicos__relevo {
-    background-color: blanchedalmond;
     margin-top: 3rem;
+    padding-left: 3rem;
+}
+.relevo__titulo {
+  padding-left: 1rem;
 }
 
 .relevo__descricao {
@@ -10,7 +13,7 @@
     width: 100%;
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: 2rem 0;
 }
 
 

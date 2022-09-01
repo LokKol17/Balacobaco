@@ -1,13 +1,16 @@
 .aspectos-fisicos__vegetacao {
-    background-color: tan;
+    padding-left: 3rem;
+}
+.vegetacao__titulo {
+  padding-left: 1rem;
 }
 .vegetacao__container {
     display: flex;
     justify-content: space-between;
 }
 .vegetacao__container__info {
-    padding: 0 10px;
-    width: 50%;
+    /* padding: 0 10px; */
+    width: 60%;
 }
 .vegetacao__descricao {
     font-family: var(--comfortaa);
@@ -19,7 +22,7 @@
     width: 50%;
     height: 500px;
 }
-.vegetacao__vetor__container {
+/* .vegetacao__vetor__container {
     padding: 5px;
     display: grid;
     grid-template-areas: 
@@ -30,7 +33,7 @@
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-}
+} */
 .vegetacao__imagem__pequena, .vegetacao__imagem__media, .vegetacao__imagem__grande {
     margin: 10px;
 }
