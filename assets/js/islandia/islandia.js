@@ -21,7 +21,7 @@ function MudarIslandia() {
 
 
     const economiaImagem = document.getElementById("economiaImagem")
-    economiaImagem.setAttribute('src', './assets/imgs/economia-islandia.jpg')
+    economiaImagem.setAttribute('src', './assets/imgs/economia-islandia.JPG')
 
     const primarioDescricao = document.getElementById("primarioDescricao")
     const secundarioDescricao = document.getElementById("secundarioDescricao")
