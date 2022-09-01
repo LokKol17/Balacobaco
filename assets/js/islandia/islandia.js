@@ -17,18 +17,19 @@ function MudarIslandia() {
     const economiaTitulo = document.getElementById("economiaTitulo")
     const economiaDescricao = document.getElementById("economiaDescricao")
 
-    economiaDescricao.innerText = "Os Países Baixos têm uma economia muito forte e têm desempenhado um papel especial na economia europeia durante muitos séculos. Desde o século XVI, o transporte, a pesca, o comércio e os bancos têm sido importantes setores da economia neerlandesa. O país é umas das dez maiores nações exportadoras. A Holanda possui vários recursos naturais energéticos, de onde se destaca o gás natural, cujas reservas são das maiores da Europa Ocidental. Quanto ao petróleo e ao carvão, embora existam em razoáveis quantidades, não satisfazem as necessidades internas, obrigando, assim, o país a recorrer à importação daqueles materiais."
+    economiaDescricao.innerText = "A Islândia apresenta uma economia de mercado altamente desenvolvida e diversificada. O Produto Interno Bruto (PIB) do país é de 25,48 bilhões de dólares, com um valor per capita muito elevado, de pouco mais de 68 mil dólares. Vale notar que a Islândia não integra a União Europeia, por mais que seja membro do Espaço Econômico Europeu."
+
 
     const economiaImagem = document.getElementById("economiaImagem")
-    economiaImagem.setAttribute('src', './assets/imgs/economia-holanda.jpg')
+    economiaImagem.setAttribute('src', './assets/imgs/economia-islandia.jpg')
 
     const primarioDescricao = document.getElementById("primarioDescricao")
     const secundarioDescricao = document.getElementById("secundarioDescricao")
     const terciarioDescricao = document.getElementById("terciarioDescricao")
 
-    primarioDescricao.innerText = "O setor primário está bastante desenvolvido, integrando atividades como a horticultura de estufa (tomate, pepino e alface são os principais produtos), a floricultura (dedicada, sobretudo, à tulipa, símbolo nacional) e a criação de gado leiteiro que sustenta a forte produção de laticínios."
-    secundarioDescricao.innerText = "No setor secundário, as indústrias metalúrgica, alimentícia e do tabaco são as suas principais fontes de rendimento, também há as indústrias química, eletrônica e petrolífera. Nos últimos anos, o Governo holandês tem encorajado o desenvolvimento de outras indústrias, como a aeronáutica e a automóvel."
-    terciarioDescricao.innerText = "Por último, no setor terciário é de destacar a importância da Bolsa de Ações de Amsterdã (fundada no início do século XVII) e do sistema bancário holandês, predominantemente nas mãos de grupos privados."
+    primarioDescricao.innerText = "No setor primário, pescados e seus derivados (carne, óleos, pele, base para rações) são o carro-chefe da economia islandesa e têm grande importância nas exportações do país. Na indústria, os peixes e frutos do mar são utilizados como matéria-prima do ramo alimentício, principalmente."
+    secundarioDescricao.innerText = "Já no setor secúndario estão presentes, a indústria de tecnologia, a produção de energia, de alumínio e também de produtos médicos e farmacêuticos."
+    terciarioDescricao.innerText = "O setor terciário é responsável por aproximadamente 75% do PIB do país, além de concentrar uma parcela semelhante da mão de obra islandesa. Nesse segmento, destacam-se o turismo e todas as atividades a ele associadas, incluindo o comércio."
 
     // const primarioImagem = document.getElementById("primarioImagem")
     // primarioImagem.setAttribute('src', './assets/imgs/primario-holanda.jpg')
@@ -37,95 +38,98 @@ function MudarIslandia() {
     // aspDescricao.innerText
 
     const relevoDescricao = document.getElementById('relevoDescricao')
-    relevoDescricao.innerHTML = "Com uma área de 41.500 km²; O relevo da holanda se caracteriza pelas extensas planícies litorâneas e por feições que recebem o nome de pôlders. Trata-se de terrenos muito baixos que são constantemente alagados pelos corpos d’água adjacentes e protegidos por estruturas como diques e barragens que têm a função de impedir o avanço da água. <br> A altura média do relevo é de 30 metros, enquanto seu ponto mais alto fica na colina de Vaalserberg, com 322 metros de altitude"
+    relevoDescricao.innerHTML = "O relevo da islandia é composto em sua maioria por planaltos e montanhas. A altitude média encontrada no país é de 557 metros. Já o ponto mais alto, é conhecido como Hvannadalshnúkur (tenta falar isso!), fica 2110 metros acima do nível do mar. <br><br> Uma importante característica a ser notada sobre os terrenos que formam a Islândia é o importante papel das geleiras na esculturação do relevo. Além de elas estarem presentes em várias áreas, são responsáveis também por feições como os fiordes, que são encontrados na zona costeira. <br><br> Um fiorde nada mais é do que um vale encaixado, inundado pela água do mar e que surgiu a partir do derretimento de geleiras. Destaca-se ainda que a Islândia está situada próxima a uma área de encontro de placas tectônicas, dispondo, por isso, de centenas de vulcões e estando suscetível à ocorrência de terremotos."
+
 
     const vegetacaoDescricao = document.getElementById("vegetacaoDescricao")
-    vegetacaoDescricao.innerHTML = "A composição vegetal dos Países Baixos é condizente com as amplas extensões de terras alagadas e com o relevo rebaixado. Sua paisagem costeira é formada por dunas, pântanos e turfeiras. Em outras áreas, se observa a presença de campos, charneca e bosques.<br><br> Além disso, o território neerlandês possui mais de 50% de suas terras com elevada aptidão agrícola, sendo que 24% da sua superfície é utilizada como área de pastagem. <br> A paisagem natural foi alterada pelo homem e as áreas de vegetação natural são muito limitadas. Os animais de maior porte desapareceram, mas os bosques de carvalho, faia, freixo e pinheiro estão protegidos."
+    vegetacaoDescricao.innerHTML = "A vegetação da Islândia se caracteriza pelas formações encontradas nos biomas de tundra e taiga. A tundra se localiza ao norte, nas terras mais frias do país, já a taiga é predominante nas partes meridionais da ilha. A cobertura vegetal contínua abrange aproximadamente 25% do território islandês, sendo o restante irregular."
+
 
 
     const climaDescricao = document.getElementById("climaDescricao")
-    climaDescricao.innerHTML = "A Holanda apresenta a peculiaridade de estar entre dois importantes centros de ação: a baixa da Islândia e a alta dos Açores. Assim, o país se coloca em uma posição onde massas de ar quentes e frias se chocam, causando instabilidade e nebulosidade. <br> <br> Estima-se que o país tenha menos de um mês de tempo aberto por ano, geralmente concentrados na primavera, enquanto outono e verões costumam ter os maiores índices pluviométricos.<br><br> Somado a isto, o relevo plano do país favorece a circulação dos ventos, especialmente os vindos do oeste e do sul. Os ventos vindos do sul, porém, costumam ser freados pelas elevações austrais holandesas.<br><br> Quanto as temperaturas, elas costumam não ser muito rígidas, com verões não muito quentes e invernos amenos.<br><br> A ação da Corrente do Golfo, que leva as águas quentes da Flórida e do México para o oeste europeu, tem papel fundamental na regulação climática do país."
+    climaDescricao.innerHTML = "Em função da sua latitude e pela grande influência das correntes marítimas, dois tipos climáticos são predominantes no país: o temperado oceânico, ao sul, e o subártico ou subpolar nas terras ao norte. No gerais, todo o país experimenta temperaturas baixas, variando nas médias de 0,5 °C e 11 °C, dependendo do lugar, com uma pequena amplitude térmica ao ano. A neve é mais intensa e duradoura ao norte do que no sul, região em que se registra grandes volumes de chuva, de até 4000 mm"
 
     const demoDescricao = document.getElementById("demoDescricao")
-    demoDescricao.innerHTML = "A população estimada da Holanda é de 17.400.000 (17 milhões), sendo a maioria da população dos Países Baixos é etnicamente holandesa, havia 1,8 milhão de residentes estrangeiros nos Países Baixos, o que corresponde a 11,1% do total de habitantes.<br> Com o Pib per capita de 52.304,06 USD, que é um dos mais altos do mundo"
+    demoDescricao.innerHTML = "A Islândia tem atualmente cerca de 343 mil habitantes. O territoria islandês conta com 103.000 km2"
+
 
     const densidadeValor = document.getElementById("densidadeValor")
-    densidadeValor.innerHTML = "370 hab/km<sup>2</sup>"
+    densidadeValor.innerHTML = "3,4 hab/km²"
 
     const densidadeDescricao = document.getElementById("densidadeDescricao")
-    densidadeDescricao.innerHTML = "Essa densidade é uma das mais altas da Europa.<br> Na qual cerca de 3 milhões de pessoas do pais moram em Amsterdam, Rotterdam, Den Haag (Haia), Utrecht e Eindhoven <ul> <li>População residente em área urbana: 84%</li> <li>População residente em área rural: 16%</li></ul>"
+    densidadeDescricao.innerHTML = "A população não se encontra distribuída de forma homogênea pelo território isso se dá pelas condições climáticas encontradas no país. <br><br> A maior parte dos islandeses vive nas áreas próximas da capital do país e também nas cidades costeiras, com alguns vilarejos esparsos pelo norte da ilha."
 
 
     const natalidadeDescricao = document.getElementById("natalidadeDescricao")
-    natalidadeDescricao.innerText = "A natalidade dos países baixos se manteve estavel, conforme a tabela abaixo: (2017-2019)"
+    natalidadeDescricao.innerText = "A natalidade da islândia sofre um crescimento populacional leve: (2017-2019)"
     /////////////////// Tabela Natalidade /////////////////////
 
     const natNas1 = document.getElementById("natNas1")
-    natNas1.innerText = "169.680"
+    natNas1.innerText = "4.452"
     const natNas2 = document.getElementById("natNas2")
-    natNas2.innerText = "168.525"
+    natNas2.innerText = "4.228"
     const natNas3 = document.getElementById("natNas3")
-    natNas3.innerText = "169.836"
+    natNas3.innerText = "4.071"
 
     const natNasH1 = document.getElementById("natNasH1")
-    natNasH1.innerText = "86.893"
+    natNasH1.innerText = "2.267"
     const natNasH2 = document.getElementById("natNasH2")
-    natNasH2.innerText = "86.204"
+    natNasH2.innerText = "2.242"
     const natNasH3 = document.getElementById("natNasH3")
-    natNasH3.innerText = "87.159"
+    natNasH3.innerText = "2.112"
 
     const natNasM1 = document.getElementById("natNasM1")
-    natNasM1.innerText = "82.787"
+    natNasM1.innerText = "2.185"
     const natNasM2 = document.getElementById("natNasM2")
-    natNasM2.innerText = "82.321"
+    natNasM2.innerText = "1.986"
     const natNasM3 = document.getElementById("natNasM3")
-    natNasM3.innerText = "82.677"
+    natNasM3.innerText = "1.959"
 
     const natTaxNat1 = document.getElementById("natTaxNat1")
-    natTaxNat1.innerText = "9,80‰"
+    natTaxNat1.innerText = "12,30‰"
     const natTaxNat2 = document.getElementById("natTaxNat2")
-    natTaxNat2.innerText = "9,80‰"
+    natTaxNat2.innerText = "12,00‰"
     const natTaxNat3 = document.getElementById("natTaxNat3")
-    natTaxNat3.innerText = "9,90‰"
+    natTaxNat3.innerText = "11,90‰"
 
     const natTaxFer1 = document.getElementById("natTaxFer1")
-    natTaxFer1.innerText = "1,57"
+    natTaxFer1.innerText = "1,74"
     const natTaxFer2 = document.getElementById("natTaxFer2")
-    natTaxFer2.innerText = "1,59"
+    natTaxFer2.innerText = "1,71"
     const natTaxFer3 = document.getElementById("natTaxFer3")
-    natTaxFer3.innerText = "1,62"
+    natTaxFer3.innerText = "1,71"
     
     /////////////////// Tabela Mortalidade /////////////////////
     const mortalidadeDescricao = document.getElementById("mortalidadeDescricao")
-    mortalidadeDescricao.innerText = "A taxa de mortalidade também se manteve estavel: (2017-2019)"
+    mortalidadeDescricao.innerText = "A taxa de mortalidade se manteve estavel e com um leve declíneo: (2017-2019)"
 
     const mor1 = document.getElementById("mor1")
-    mor1.innerText = "151.885"
+    mor1.innerText = "2.275"
     const mor2 = document.getElementById("mor2")
-    mor2.innerText = "153.363"
+    mor2.innerText = "2.254"
     const mor3 = document.getElementById("mor3")
-    mor3.innerText = "150.214"
+    mor3.innerText = "2.238"
 
     const morH1 = document.getElementById("morH1")
-    morH1.innerText = "74.432"
+    morH1.innerText = "1.157"
     const morH2 = document.getElementById("morH2")
-    morH2.innerText = "74.522"
+    morH2.innerText = "1.139"
     const morH3 = document.getElementById("morH3")
-    morH3.innerText = "72.661"
+    morH3.innerText = "1.124"
 
     const morM1 = document.getElementById("morM1")
-    morM1.innerText = "77.453"
+    morM1.innerText = "1.118"
     const morM2 = document.getElementById("morM2")
-    morM2.innerText = "78.841"
+    morM2.innerText = "1.115"
     const morM3 = document.getElementById("morM3")
-    morM3.innerText = "77.553"
+    morM3.innerText = "1.114"
 
     const taxMor1 = document.getElementById("taxMor1")
-    taxMor1.innerText = "8,80‰"
+    taxMor1.innerText = "6,30‰"
     const taxMor2 = document.getElementById("taxMor2")    
-    taxMor2.innerText = "8,90‰"
+    taxMor2.innerText = "6,40‰"
     const taxMor3 = document.getElementById("taxMor3")
-    taxMor3.innerText = "8,80‰"
+    taxMor3.innerText = "6,50‰"
 
 
 }
